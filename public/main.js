@@ -1,3 +1,5 @@
+// Collaborated with team Hayden to successfully complete the project 
+
 function addOrder() {
   cashierOrder.customerName = document.querySelector('.customerName').value
   cashierOrder.specialInstructions = document.querySelector('.customerOrder').value
@@ -139,3 +141,4 @@ function customerInstruction(){
 //       }
 //     })
 // }
+// Collaborated with team Hayden to successfully complete the project 
