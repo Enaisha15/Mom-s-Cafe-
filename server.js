@@ -1,5 +1,5 @@
 // server.js
-
+// Collaborated with team Hayden to successfully complete the project 
 // set up ======================================================================
 // get all the tools we need
 var express  = require('express');
@@ -18,7 +18,7 @@ var session      = require('express-session');
 var configDB = require('./config/database.js');
 
 var db
-
+// 
 // configuration ===============================================================
 mongoose.connect(configDB.url, (err, database) => {
   if (err) return console.log(err)
@@ -52,3 +52,4 @@ app.use(flash()); // use connect-flash for flash messages stored in session
 // launch ======================================================================
 app.listen(port);
 console.log('The magic happens on port ' + port);
+// Collaborated with team Hayden to successfully complete the project 
